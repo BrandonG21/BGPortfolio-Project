@@ -25,14 +25,16 @@ nav{
    padding: 20px 0;
    align-items: center;
    justify-content: space-between;
-   background-color: gray;
+   background-color: rgb(31, 30, 30);
    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
 }
 
 nav h1{
-    color: black;
+    color:black;
     font-size: 300%;
     font-family: var(--font-family);
+    padding-left: 40px;
+    background-color: rgb(255, 255, 255);
 }
 
 nav u1 li{
@@ -42,7 +44,7 @@ nav u1 li{
 }
 
 nav u1 li a{
-    color: var(--primary-color);
+    color: white;
     font-weight: bold;
     font-family: var(--font-family);
     font-size: larger;
@@ -50,4 +52,26 @@ nav u1 li a{
 
 nav a:hover{
     color: blue;
+}
+
+.MCFLUR{
+    align-items: center;
+    justify-content: center;
+    margin: auto;    
+}
+
+.Brandon-img{   
+    height: 400px;
+    width: 100%;
+}
+
+.bio{
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+    padding: 8px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px
+}
+
+.bio p{
+    line-height: 25px;
 }
