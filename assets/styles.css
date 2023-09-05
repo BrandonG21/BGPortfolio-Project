@@ -11,12 +11,12 @@
 }
 
 body {
-    background-color: grey;
+    background-color: rgb(188, 253, 255);
 }
 
 header {
     position: relative;
-    background-color: black;
+    background-color: white;
 }
 
 nav {
@@ -29,7 +29,7 @@ nav {
     padding: 20px 0;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(31, 30, 30);
+    background-color: white;
     box-shadow: 0px 2px 15px 2px;
 }
 
@@ -38,7 +38,7 @@ nav h1 {
     font-size: 300%;
     font-family: var(--font-family);
     padding-left: 40px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(188, 253, 255);
 }
 
 nav u1 li {
@@ -48,14 +48,14 @@ nav u1 li {
 }
 
 nav u1 li a {
-    color: white;
+    color: black;
     font-weight: bold;
     font-family: var(--font-family);
     font-size: larger;
 }
 
 nav a:hover {
-    color: blue;
+    color: rgb(188, 253, 255);
 }
 
 .MCFLUR {
@@ -63,8 +63,8 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     margin: auto;
-    gap: 2.5rem;
-    max-width: 68.75rem;
+    gap: 20px;
+    max-width: 900px;
 }
 
 .Brandon-img {
@@ -72,6 +72,7 @@ nav a:hover {
     width: 624px;
     border-radius: 20%;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .bio {
@@ -88,17 +89,12 @@ nav a:hover {
 }
 
 .projects {
-    display: flex;
+    display: flex;   
     align-items: center;
     justify-content: center;
     margin: auto;
-    gap: 2.5rem;
-    max-width: 68.75rem;
-}
-
-.projects h2{
-    text-align: center;
-    margin-bottom: 20px;
+    padding-top: 5px;
+    flex-wrap: wrap;
 }
 
 .projectimg {
@@ -112,6 +108,7 @@ nav a:hover {
     padding: 6px;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px;
+    background-color: white;
 }
 
 .projects-title {
@@ -123,25 +120,22 @@ nav a:hover {
     text-align: center;
     width: 350px;
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-main{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px;
+    background-color: white;
 }
 
 .comingsoon{
     width: 300px;
     height: 300px;
-}
-
-.contactme{
-    position: sticky;
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 0;
-    justify-content: space-evenly;
-    background-color: rgb(31, 30, 30);
-    box-shadow: 0px 2px 15px 2px;
 }
 
 nav h2 { 
@@ -150,4 +144,31 @@ nav h2 {
     font-family: var(--font-family);
     padding-left: 40px;
     background-color: rgb(255, 255, 255);
+}
+
+.contact-info{
+    position: sticky;
+    display: flex;
+    margin: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    justify-content: space-evenly;
+    background-color: white;
+    box-shadow: 0px 2px 15px 2px;
+    flex-wrap: wrap;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: black
+}
+
+nav a{
+    color: black;
+    font-weight: bold;
+    font-family: var(--font-family);
+    font-size: larger;
 }
