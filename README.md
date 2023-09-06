@@ -2,7 +2,7 @@
 
 ## Link to Website 
 
-https://brandong21.github.io/Portfolio-Project/
+https://brandong21.github.io/BGPortfolio-Project/
 
 ## Screenshot
 
