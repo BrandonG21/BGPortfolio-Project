@@ -6,7 +6,7 @@ https://brandong21.github.io/Portfolio-Project/
 
 ## Screenshot
 
-img\Screenshot 2023-09-06 005808.png
+![Screenshot of published portfolio website for Brandon G.](image.png)
 
 ## Description
 
